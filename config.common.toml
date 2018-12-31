@@ -1,0 +1,48 @@
+baseurl                       = "https://danatarin.github.io"
+title                         = "Danatarin"
+
+theme                         = "theme"
+
+disqusShortname               = "danatarin-com"
+googleAnalytics               = "UA-123456789-1"
+
+paginate                      = 20
+preserveTaxonomyNames         = true
+
+canonifyurls                  = true
+enableRobotsTXT               = true
+
+PygmentsCodeFences            = true
+pygmentsUseClasses            = true
+pygmentsCodeFencesGuessSyntax = true
+
+defaultContentLanguage        = "fa"
+languagecode                  = "fa"
+
+[params]
+  hideCopyright      = false
+  hideCopyrightOwner = false
+  hideCredits        = true
+
+# === CSS VERSION ===
+[params.version]
+  css = "1"
+  js  = "1"
+
+# === MAIN MENU (NAME = I18N ID) ===
+[params.home]
+  name   = "menu_home"
+  url    = "/"
+  weight = 1
+
+[[menu.main]]
+  name   = "menu_about"
+  weight = 2
+  url    = "/about/"
+[[menu.main]]
+  name   = "menu_posts"
+  weight = 3
+  url    = "/posts/"
+
+# === TRANSLATIONS ===
+[languages]

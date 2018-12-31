@@ -1,0 +1,15 @@
+
+# === English ===
+[languages.en]
+  title          = "Danatarin"
+  weight         = 2
+  languageCode   = "en"
+  languageName   = "English"
+
+[languages.en.params]
+  langcode      = "en"
+  description   = "Information Technology questions & answers"
+  rtl           = false
+
+[languages.en.params.copyright]
+  year          = "2018"
