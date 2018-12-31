@@ -1,0 +1,15 @@
+
+# === Farsi ===
+[languages.fa]
+  title          = "داناترین"
+  weight         = 1
+  languageCode   = "fa"
+  languageName   = "فارسی"
+
+[languages.fa.params]
+  langcode      = "fa"
+  description   = "پرسش و پاسخ فناوری اطلاعات"
+  rtl           = true
+
+[languages.fa.params.copyright]
+  year          = "۱۳۹۷"
